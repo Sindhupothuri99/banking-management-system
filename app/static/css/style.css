@@ -1,0 +1,34 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f7fb;
+margin: 0;
+}
+
+.hero {
+background: linear-gradient(120deg, #dceeff, #ffffff);
+padding: 100px 20px;
+}
+
+.hero h1 {
+color: #0d47a1;
+font-size: 45px;
+font-weight: bold;
+}
+
+.hero p {
+font-size: 20px;
+margin: 20px 0;
+}
+
+.service-card {
+border: none;
+border-radius: 12px;
+padding: 20px;
+height: 100%;
+box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.service-card:hover {
+transform: translateY(-5px);
+transition: 0.3s;
+}
