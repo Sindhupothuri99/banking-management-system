@@ -5,3 +5,20 @@ instance/
 .env
 *.db
 .pytest_cache/
+# Database backups
+db-backups/
+*.sql
+*.sql.gz
+
+# AWS credentials and keys
+*.pem
+.aws/
+
+# Terraform generated files
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+
+# Logs
+*.log
